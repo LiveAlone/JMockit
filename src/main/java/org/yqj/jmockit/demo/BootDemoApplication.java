@@ -30,6 +30,6 @@ public class BootDemoApplication {
     @ResponseBody
     public String indexPage(){
         log.info("index called");
-        return "this is test index paging info update";
+        return "this is test index paging info";
     }
 }
